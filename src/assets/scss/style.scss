@@ -1,0 +1,123 @@
+/*================================================================================
+	Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+	Version: 2.0
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+@media (max-width:768px) {
+	.container{
+		max-width: 100% !important;
+	}
+}
+
+.brand-logo-cus {
+	display: flex;
+	align-items: center;
+}
+
+ul.navigation.navigation-main {
+	margin-top: 1rem;
+}
+
+.al-login {
+	width: 50%;
+	justify-content: center;
+	display: flex;
+	margin: 25px auto 0;
+}
+
+.dropzone {
+	cursor: pointer;
+	background-color: #f8f8f8;
+	border: 1px dashed #20d885;
+	border-radius: 0.357rem;
+	display: flex;
+	min-height: 250px;
+	justify-content: center;
+	align-items: center;
+}
+
+.dropzone.dark {
+	cursor: pointer;
+	background-color: transparent;
+	border: 1px dashed #20d885;
+	border-radius: 0.357rem;
+	display: flex;
+	min-height: 250px;
+	justify-content: center;
+	align-items: center;
+}
+
+.remove-slider-container {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	// background: rgba(265, 265, 265, 0.7);
+	padding: 5px;
+	z-index: 9999;
+	border-radius: 50%;
+	cursor: pointer
+}
+
+.navigation li {
+	white-space: initial;
+}
+
+.text-truncate {
+	text-overflow: initial;
+	white-space: initial;
+}
+
+.category_custom {
+	padding: 20px;
+}
+
+.gallery-thumbs .swiper-slide {
+	opacity: 1 !important;
+}
+
+.gallery-thumbs .swiper-slide img {
+	width: 340px;
+	height: 115px;
+}
+
+.form-label {
+	font-size: 1rem;
+}
+
+.congratulation-medal {
+	width: 90px;
+	top: 20px
+}
+
+@media(max-width:767px) {
+	.congratulation-medal {
+		width: 75px;
+		top: 70px;
+		right: 10px;
+
+	}
+}
+
+.login-cover{
+	max-width: 700px;
+}
+
+.img-mboile-link{
+	display: flex;
+	align-items: center;
+	gap: 8px;
+
+	img{
+		max-width: 150px;
+		&:hover{
+			opacity: 0.8;
+		}
+	}
+}
+
